@@ -1,1 +1,29 @@
-TEST
+
+Title: [MECH] FairSpawn v1.0 - Balanced individual spawn locations [304]
+Content:
+
+FairSpawn:
+[B]Version:[/B] v1.0
+
+FairSpawn allows players to set their own spawn location once every half hour using the compass. 
+
+By default, players spawn points will be at the server's initial spawn location. To change your spawn location, you must equip a compass, stand in the location/orientation of your desired spawn point, and right click while the compass is equipped. If you attempt to set your spawn before the 30 minute cooldown has expired, the spawn location change will fail and the plugin will tell you how long until you can set your spawn elsewhere. I'm calling it "fair" because the 30 minute spawn change cooldown is enough to keep people from setting their spawns willy-nilly, and there's a minor resource sink with requiring the use of a compass.
+
+On the server end, a file called spawnLocs will be created where spawn location, orientation, and time of last spawn location set are stored. I've done my best to make this file resilient to server crashing, so players shouldn't lose their last set spawn location if the server crashes.
+
+I put this together for use on my own server as a way to incorporate changing spawn locations as a legitimate mechanic without any need of typed user commands. I don't intend to add any additional features at the moment, I just want to make this available to others who are looking for an individual spawn plugin that fits better into the vanilla game.So, this plugin is basically as-is, but as I update it to reflect the needs of my own server, I'll make it available in this thread.
+
+[B]Features:[/B]
+[LIST]
+[*]Individual spawn points per player using compass
+[*]Compass points toward the player's individual spawn point
+[*]30 minute cooldown on resetting your spawn location
+[/LIST]
+Download FairSpawn Plugin https://github.com/downloads/exitlights/FairSpawn/FairSpawn.jar
+Source Code https://github.com/exitlights/FairSpawn
+
+[B]Changelog:[/B]
+Version 1.0
+[LIST]
+[*]Initial release
+[/LIST]
